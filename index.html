@@ -9,6 +9,7 @@
   <script type="text/javascript"
           src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"></script>
 </head>
+
 <body>
 <div class="ui borderless top menu">
   <img class="ui centered image"
@@ -37,31 +38,72 @@
   </div>
 </div>
 
-<div class="background home image">
+<div class="middle home">
   <div class="ui container">
-    <div class="ui centered grid container">
-      <img class="ui centered image"
-           src="https://honoluluburgerco.com/wp-content/uploads/2018/06/IMG_2052.png" alt="">
+    <div class="ui centered grid container" style="padding: 50px">
+      <img class="ui centered grid image"
+           src="https://honoluluburgerco.com/wp-content/uploads/2018/06/IMG_2052.png" alt=""></div>
 
-    <p>WELCOME TO</p>
-      <p>HONOLULU BURGER CO.</p>
+    <div class="ui centered grid container" style="padding: 20px">
+      <h1 class="ui center aligned header" style="font-size: 25px">WELCOME TO</h1></div>
+    <div class="ui centered grid container" style="padding: 35px">
+      <h2 class="ui center aligned header" style="font-size: 40px">HONOLULU BURGER CO.</h2></div>
+    <div class="ui centered grid container" style="padding: 40px">
+      <h3 class="ui center aligned header" style="font-size: 12px">100% BIG ISLAND FREE RANGE GRASS FED BEEF</h3></div>
+
+    <div class="ui orange item inverted menu">
+      <div class="active item">ORDER NOW</div>
+    </div>
+
+
+  </div>
+</div>
+
+<div class="footer home">
+  <div class="ui container">
+    <div class="ui three column grid">
+      <div class="column">
+        <div class="ui list">
+          <img src="https://honoluluburgerco.com/wp-content/uploads/2018/06/HBC-takeout-icon.png" alt="">
+        </div>
+        <div class="column" style="color: black">If you can click it you can eat it! Pay online and have your order
+          ready when you arrive!
+        </div>
+        <div class="ui orange item inverted menu">
+          <div class="item" style="color: black">ORDER TAKEOUT</div>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="ui list">
+          <img src="https://honoluluburgerco.com/wp-content/uploads/2018/06/HBC-truck-icon.png" alt="">
+        </div>
+        <div class="column" style="color: black">Check out our pop-up menu, times and locations. Enjoy one of our
+          burgers at a Local Farmer's Market or Downtown on your lunch break!
+        </div>
+        <div class="ui orange item inverted menu">
+          <div class="item" style="color: black">FOOD TRUCK</div>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="ui list">
+          <img src="https://honoluluburgerco.com/wp-content/uploads/2018/06/HBC-burger-icon.png" alt="">
+        </div>
+        <div class="column" style="color: black">We're always putting out new specials and promotions for big and
+          small cravings. Check our Specials and Instagram page for the latest deals.
+        </div>
+        <div class="ui orange item inverted menu">
+          <div class="item" style="color: black">SPECIAL</div>
+        </div>
+      </div>
     </div>
   </div>
 </div>
-</div>
-<!--
 
-
-<div class="footer-background">
-  <div class="ui borderless middle menu">
-    <img class="ui fluid image"
-         src="https://honoluluburgerco.com/wp-content/uploads/2018/06/honolulu-burger-co-home-slider.jpg"
-         alt="background">
-
-    <img class="ui centered image"
-         src="https://honoluluburgerco.com/wp-content/uploads/2018/06/IMG_2052.png" alt="">
-  </div>
-</div>
--->
+<script>
+  $('.ui.hover.dropdown').dropdown({ on: 'hover' });
+  $('.ui.search.dropdown').dropdown();
+</script>
 </body>
 </html>
