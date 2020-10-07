@@ -1,0 +1,59 @@
+.ui.borderless.top.menu {
+  background-color: black;
+  border: none;
+  box-shadow: none;
+}
+
+.ui.borderless.topmenu.menu {
+  background-color: black;
+  box-shadow: none;
+  border: none;
+}
+
+.background.home.image {
+  background: url('https://honoluluburgerco.com/wp-content/uploads/2018/06/honolulu-burger-co-home-slider.jpg') no-repeat center center;
+  background-size: cover;
+  height: 700px;
+
+}
+
+.ui.centered.grid {
+ color: white;
+}
+
+.ui.centered.header {
+  white-space: nowrap;
+  font-size: 23px;
+  line-height: 23px;
+  font-weight: 400;
+  color: rgb(255, 255, 255);
+  letter-spacing: 4px;
+  font-family: "PT Sans Narrow";
+  text-transform: uppercase;
+  visibility: inherit;
+}
+---------------------------------------
+.ui.centered.image {
+  width: 176px;
+  height: 99px;
+  margin-top: 55px;
+  margin-bottom: 49px;
+}
+
+.ui.fluid.image {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+  visibility: inherit;
+}
+
+.ui.centered.image {
+  width: 120px;
+  height: 107px;
+  text-align: inherit;
+  font-weight: 300;
+  font-size: 16px;
+}
